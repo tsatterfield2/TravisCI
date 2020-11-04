@@ -33,7 +33,7 @@ namespace TravisCILab
         // Implement 3 tests per operation, following a similar pattern as above
 
         [Test]
-        public void Add_Null()
+        public void Add_yes()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
@@ -41,7 +41,7 @@ namespace TravisCILab
         }
 
         [Test]
-        public void Add_Null()
+        public void Add_Ns()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
@@ -49,7 +49,7 @@ namespace TravisCILab
         }
 
         [Test]
-        public void Add_Null()
+        public void Add_Nuy()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
